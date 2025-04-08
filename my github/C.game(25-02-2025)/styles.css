@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h1 {
+    color: #333;
+}
+
+.scoreboard p {
+    font-size: 18px;
+}
+
+.choices {
+    margin: 20px 0;
+}
+
+.choice {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.choice:hover {
+    background-color: #45a049;
+    transform: scale(1.1); /* Slight zoom effect when hovering */
+}
+
+.choice-img {
+    width: 60px;
+    height: 60px;
+}
+
+.result p {
+    font-size: 16px;
+}
+
+.result-images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.result-img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+#round {
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    75% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

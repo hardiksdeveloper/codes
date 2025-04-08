@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Thumbnails Section -->
+        <div id="thumbnails" class="thumbnails">
+            <img src="https://source.unsplash.com/150x150/?nature,water" alt="Nature Water" draggable="true" class="thumbnail" id="img1">
+            <img src="https://source.unsplash.com/150x150/?nature,mountain" alt="Nature Mountain" draggable="true" class="thumbnail" id="img2">
+            <img src="https://source.unsplash.com/150x150/?nature,forest" alt="Nature Forest" draggable="true" class="thumbnail" id="img3">
+            <img src="https://source.unsplash.com/150x150/?nature,beach" alt="Nature Beach" draggable="true" class="thumbnail" id="img4">
+            <img src="https://source.unsplash.com/150x150/?nature,sunset" alt="Nature Sunset" draggable="true" class="thumbnail" id="img5">
+        </div>
+
+        <!-- Drop Zone Section -->
+        <div id="dropZone" class="drop-zone">
+            <h2>Drop an Image Here</h2>
+            <div id="preview" class="preview">
+                <p>Image will appear here!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

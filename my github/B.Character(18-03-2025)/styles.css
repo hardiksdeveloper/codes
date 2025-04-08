@@ -1,0 +1,16 @@
+#name {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#charCount {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h2 {
+  color: #333;
+}

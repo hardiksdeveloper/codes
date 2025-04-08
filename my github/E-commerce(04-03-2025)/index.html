@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Shop</h1>
+        <div class="cart">
+            <button id="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+            <div class="cart-dropdown" id="cart-dropdown">
+                <ul id="cart-items"></ul>
+                <button id="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </header>
+    
+    <section class="products">
+        <div class="product" data-id="1" data-name="T-Shirt" data-price="1599">
+            <img src="https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?w=150&h=150" alt="T-Shirt">
+            <h2>T-Shirt</h2>
+            <p>₹1599</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="2" data-name="Jeans" data-price="1999">
+            <img src="https://images.pexels.com/photos/7679464/pexels-photo-7679464.jpeg?w=150&h=150" alt="Jeans">
+            <h2>Jeans</h2>
+            <p>₹1999</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="3" data-name="Shirt" data-price="2499">
+            <img src="https://images.pexels.com/photos/1488467/pexels-photo-1488467.jpeg?w=150&h=150" alt="Shirt">
+            <h2>Shirt</h2>
+            <p>₹2499</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="4" data-name="Lower" data-price="3499">
+            <img src="https://images.pexels.com/photos/6311605/pexels-photo-6311605.jpeg?w=150&h=150" alt="Lower">
+            <h2>Lower</h2>
+            <p>₹3499</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="5" data-name="Shoes" data-price="2999">
+            <img src="https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?w=150&h=150" alt="Shoes">
+            <h2>Shoes</h2>
+            <p>₹2999</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

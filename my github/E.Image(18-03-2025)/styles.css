@@ -1,0 +1,46 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gallery container for the preview image */
+#gallery-container {
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* Preview image styling */
+#preview {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+/* Thumbnails container styling */
+#thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Individual thumbnail styling */
+#thumbnails img {
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Hover effect for thumbnails */
+#thumbnails img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
